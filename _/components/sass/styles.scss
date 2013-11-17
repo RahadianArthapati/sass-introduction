@@ -1,5 +1,9 @@
-$bg_color:#aaccbb;
+@import "compass";
+@import "compass/reset";
+@import "susy";
 
-body{
-	background:$bg_color;
-}
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+@import "modules";
